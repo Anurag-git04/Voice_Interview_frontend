@@ -333,7 +333,7 @@ function InterviewContent() {
           )}
 
           {/* Error Display */}
-          {error && state !== "error" && (
+          {error && (
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <p className="text-sm text-red-800">{error}</p>
             </div>
